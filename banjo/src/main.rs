@@ -18,5 +18,3 @@ fn are_you_playing_banjo(name: &str) -> String {
         name.to_owned() + &" does not play banjo".to_string()
     }
 }
-
-//github modification test
