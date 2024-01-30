@@ -12,3 +12,5 @@ fn printer_error(s: &str) -> String {
 
     format!("{}/{}", errors.to_string(), s.chars().count())
 }
+
+// format!("{}/{}", s.chars().filter(|&c| c > 'm').count(), s.len())        <- Más optimizado
